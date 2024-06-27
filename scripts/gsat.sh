@@ -4,8 +4,8 @@
 # GMT-lin
 python run_gmt.py --dataset ba_2motifs --backbone GIN --cuda 0 -fs 1 -mt 3 -ie 0.5
 # GMT-sam 
-python run_gmt.py --dataset ba_2motifs --backbone PNA --cuda 0 -fs 1 -mt 8 -st 100 -ie 0.1 -r 0.5 -sm 
-python run_gmt.py --dataset ba_2motifs --backbone GIN --cuda 0 -fs 1 -gmt 8 -st 100 -ie 0.1 -r 0.5 -fm -mt 5669
+python run_gmt.py --dataset ba_2motifs --backbone PNA --cuda 0 -fs 1 -mt 8 -st 10 -ie 0.1 -r 0.5 -sm 
+python run_gmt.py --dataset ba_2motifs --backbone GIN --cuda 0 -fs 1 -gmt 8 -st 10 -ie 0.1 -r 0.5 -fm -mt 5669
 
 
 # GMT-lin
